@@ -1,2 +1,5 @@
-
+.nav-links a:hover,
+.header-right a:hover {
+    border-bottom: 2px solid #111;
+}
 
