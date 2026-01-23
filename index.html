@@ -56,7 +56,8 @@
   </div>
 
   <!-- hero -->
-  <div class="hero bg-[url(./src/assets/images/hero.png)] bg-cover bg-center h-[600px] flex items-center">
+  <div
+    class="hero bg-[url(./src/assets/images/hero.png)] bg-cover lg:bg-center sm:bg-right lg:h-[500px] h-[400px] flex items-center">
     <div class="container max-w-[1212px] m-auto px-3 flex flex-col gap-4">
       <h1 class="text-white font-semibold text-4xl max-w-[450px]">Designed for life today – and tomorrow</h1>
       <p class="text-white">The next-generation of games. Your goals. Friends and family. <br> Windows 11 was made to
@@ -67,43 +68,177 @@
 
   <!-- cards -->
   <div class="flex items-center">
-    <div class="container m-auto px-3 my-[60px] flex justify-center gap-5">
-      <div class="card shadow-md max-w-[300px]">
-        <img src="./src/assets/images/cards/microsoft365.png" alt="">
-        <div class="card-content p-5 flex flex-col gap-4">
-          <h3 class="text-2xl text-[#111] font-semibold">Microsoft 365</h3>
-          <p>Introducing Microsoft 365 Premium with our highest usage limits and exclusive Copilot features for AI power users.</p>
-          <button class="bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Discover Microsoft 365 Premium</button>
-          <a class="flex items-center gap-1 font-medium text-[#0067B8]" href="#" target="_blank" rel="noopener noreferrer">See other Microsoft 365 options <i class="ri-arrow-right-s-line text-xl mt-1"></i></a>
+    <div
+      class="container m-auto px-3 my-[60px] grid lg:grid-cols-4 sm:grid-cols-2 content-center place-items-center gap-5">
+      <div class="card shadow-md max-w-[300px] w-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/microsoft365.png" alt="">
+        <div class="card-content relative gap-4 justify-between p-5 flex flex-col gap-4">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Microsoft 365</h3>
+            <p>Introducing Microsoft 365 Premium with our highest usage limits and exclusive Copilot features for AI
+              power users.</p>
+          </div>
+          <div>
+            <button class="mt-2 bg-[#0067B8]  text-white px-3 text-left py-2 font-medium">Discover Microsoft
+              365
+              Premium</button>
+          </div>
+          <a class="flex items-center gap-1 font-medium text-[#0067B8]" href="#" target="_blank"
+            rel="noopener noreferrer">See other Microsoft 365 options <i
+              class="ri-arrow-right-s-line text-xl mt-1"></i></a>
         </div>
       </div>
-      <div class="card shadow-md max-w-[300px] flex flex-col">
-        <img src="./src/assets/images/cards/wallpaper.png" alt="">
-        <div class="card-content p-5 flex flex-col gap-4 h-full">
-          <h3 class="text-2xl text-[#111] font-semibold">Bring the world closer with Bing Wallpaper</h3>
-          <p>Download the free app and enjoy breathtaking views with a new background each day.</p>
-          <button class="mt-auto bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Get bing wallpaper</button>
+      <div class="card relative shadow-md max-w-[300px] w-full h-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/wallpaper.png" alt="">
+        <div class="card-content gap-4 justify-between p-5 flex flex-col">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Bring the world closer with Bing Wallpaper</h3>
+            <p>Download the free app and enjoy breathtaking views with a new background each day.</p>
+          </div>
+          <div>
+            <button
+              class=" sm:absolute bottom-0 mt-2  sm:mb-5 bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Get
+              bing
+              wallpaper</button>
+          </div>
         </div>
       </div>
-      <div class="card shadow-md max-w-[300px] flex flex-col">
-        
-        <img src="./src/assets/images/cards/microst-edge.png" alt="">
-        <div class="card-content p-5 flex flex-col gap-4 h-full">
-          <h3 class="text-2xl text-[#111] font-semibold">Microsoft Edge</h3>
-          <p>World-class performance with more privacy, more productivity and more value while you browse.</p>
-          <button class="mt-auto bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Download now</button>
+      <div class="card relative shadow-md max-w-[300px] w-full h-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/microst-edge.png" alt="">
+        <div class="card-content gap-4 justify-between p-5 flex flex-col">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Microsoft Edge</h3>
+            <p>World-class performance with more privacy, more productivity and more value while you browse.</p>
+          </div>
+          <div>
+            <button
+              class=" lg:absolute bottom-0 lg:mb-5 mt-2  bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Download
+              now</button>
+          </div>
         </div>
       </div>
-      <div class="card shadow-md max-w-[300px] flex flex-col">
-        <img src="./src/assets/images/cards/one-drive.png" alt="">
-        <div class="card-content p-5 flex flex-col gap-4 h-full">
-          <h3 class="text-2xl text-[#111] font-semibold">Microsoft OneDrive</h3>
-          <p>Save your files and photos to OneDrive and access them from any device, anywhere.</p>
-          <button class="mt-auto bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Learn more</button>
+      <div class="card relative shadow-md max-w-[300px] w-full h-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/one-drive.png" alt="">
+        <div class="card-content gap-4 justify-between p-5 flex flex-col">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Microsoft OneDrive</h3>
+            <p>Save your files and photos to OneDrive and access them from any device, anywhere.</p>
+          </div>
+          <div>
+            <button
+              class=" lg:absolute bottom-0 lg:mb-5 mt-2  bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Learn
+              more</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+  <!-- organise -->
+
+  <div class="organise">
+    <div class="container relative max-w-[1212px] m-auto mb-26 px-3 py-3">
+      <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-PC-SMB-OneNote:VP4-1260x600"
+        alt="">
+      <div class="lg:px-0  lg:m-0 md:-mt-16">
+        <div class="lg:absolute md:relative lg:top-[50%] lg:right-[100px] lg:translate-y-[-50%] md:p-10 pt-6 bg-white lg:max-w-[400px] md:w-[94%] md:m-auto shadow-2
+        xl">
+          <h2 class="font-semibold text-3xl text-[#111]">Organise your life</h2>
+          <p class="mt-3">Keep your ideas and notes organised with OneNote.</p>
+          <button class="mt-4 bg-[#0067B8]  text-white px-3 text-left py-2 font-medium">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- cards -->
+  <div class="">
+
+    <div
+      class="container relative m-auto px-3 my-[60px] grid lg:grid-cols-4 sm:grid-cols-2 content-center place-items-center gap-5">
+      <h2 class="absolute -top-12 left-[10px] text-[#111] font-semibold text-2xl">For business</h2>
+      <div class="card shadow-md max-w-[300px] w-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/microsoft365.png" alt="">
+        <div class="card-content relative gap-4 justify-between p-5 flex flex-col gap-4">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Microsoft 365</h3>
+            <p>Introducing Microsoft 365 Premium with our highest usage limits and exclusive Copilot features for AI
+              power users.</p>
+          </div>
+          <div>
+            <button class="mt-2 bg-[#0067B8]  text-white px-3 text-left py-2 font-medium">Discover Microsoft
+              365
+              Premium</button>
+          </div>
+          <a class="flex items-center gap-1 font-medium text-[#0067B8]" href="#" target="_blank"
+            rel="noopener noreferrer">See other Microsoft 365 options <i
+              class="ri-arrow-right-s-line text-xl mt-1"></i></a>
+        </div>
+      </div>
+      <div class="card relative shadow-md max-w-[300px] w-full h-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/wallpaper.png" alt="">
+        <div class="card-content gap-4 justify-between p-5 flex flex-col">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Bring the world closer with Bing Wallpaper</h3>
+            <p>Download the free app and enjoy breathtaking views with a new background each day.</p>
+          </div>
+          <div>
+            <button
+              class=" sm:absolute bottom-0 mt-2  sm:mb-5 bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Get
+              bing
+              wallpaper</button>
+          </div>
+        </div>
+      </div>
+      <div class="card relative shadow-md max-w-[300px] w-full h-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/microst-edge.png" alt="">
+        <div class="card-content gap-4 justify-between p-5 flex flex-col">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Microsoft Edge</h3>
+            <p>World-class performance with more privacy, more productivity and more value while you browse.</p>
+          </div>
+          <div>
+            <button
+              class=" lg:absolute bottom-0 lg:mb-5 mt-2  bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Download
+              now</button>
+          </div>
+        </div>
+      </div>
+      <div class="card relative shadow-md max-w-[300px] w-full h-full ">
+        <img class="w-full h-40 obeject-cover object-center" src="./src/assets/images/cards/one-drive.png" alt="">
+        <div class="card-content gap-4 justify-between p-5 flex flex-col">
+          <div>
+            <h3 class="text-2xl text-[#111] font-semibold">Microsoft OneDrive</h3>
+            <p>Save your files and photos to OneDrive and access them from any device, anywhere.</p>
+          </div>
+          <div>
+            <button
+              class=" lg:absolute bottom-0 lg:mb-5 mt-2  bg-[#0067B8] self-start text-white px-3 text-left py-2 font-medium">Learn
+              more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- social icons -->
+  <div class="follow ">
+    <div class="container max-w-[1212px] m-auto px-3 flex gap-4">
+      <p class="text-xl">Follow Microsoft</p>
+      <div class="icons text-xl flex items-center text-3xl gap-2">
+        <i class="ri-facebook-fill"></i>
+        <i class="ri-twitter-x-line"></i>
+        <i class="ri-linkedin-box-fill"></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to top
+   <div class="back">
+    <div class="container max-w-[1212px] m-auto px-3 flex justify-right items-center text-right">
+      <button class="fixed bottom-0 bg-[#e2e2e3] text-black px-3 py-2 font-medium"><i class="ri-arrow-up-long-line"></i> Back to top</button>
+    </div> 
+  </div> -->
 </body>
 
 </html>
